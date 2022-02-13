@@ -19,14 +19,30 @@ Split a string into substrings using the specified separator and return them as 
 @param separator — A string that identifies character or characters to use in separating the string. If omitted, a single-element array containing the entire string is returned.
 @param limit — A value used to limit the number of elements returned in the array. */
 // const split = string.split();
-// const split = string.split('');
+// const split = string.split('amr');
 // const splitss = string.split('a');
+
+
 // slice 
 // const split = string.slice(' ');
-
-// slice
 // Returns a section of a string.
 // const slice = string.slice(' a ');
-const slice = string.slice('  ');
+// const slice = string.slice(4, 11);
 
-console.log(splitss);
+// substr 
+// Gets a substring beginning at the specified location and having the specified length.
+// const subs = string.substr(4, 7);
+
+// substring
+// Returns the substring at the specified location within a String object.
+// const subs = string.substring(11, 15);
+
+// concat 
+// const a = ' dhaka';
+// const b = 'city'
+// const full = a + b;
+// const sub = full.concat();
+// const sub = full.concat().concat('abc').concat('  ').concat(123);
+
+
+console.log(sub);
