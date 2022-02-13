@@ -33,5 +33,11 @@ for (const item of products) {
         output2.push(item);
     }
 }
-console.log(output);
-console.log(output2);
+for (const item of products) {
+    if (item.toUpperCase().includes(searching2.toUpperCase())) {
+        output2.push(item);
+    }
+}
+
+// console.log(output);
+// console.log(output2);
