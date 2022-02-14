@@ -41,3 +41,26 @@ for (const item of products) {
 
 // console.log(output);
 // console.log(output2);
+
+const task = "Practice Makes a person perfect";
+const index = 'M'
+if (task.toLowerCase().indexOf(index.toLowerCase()) != -1) {
+    console.log(task.toLowerCase().indexOf(index.toLowerCase()), ' js  casesensetive');
+}
+
+const str = 'I love coding more than eating.';
+const getLove = str.slice(2, 6);
+console.log(getLove);
+
+const names = ["rafiq", "jabbar", "bakkar", "habib", "dalim"];
+console.log(names.reverse());
+
+
+var sm1 = 'hey';
+var sm2 = 'you'
+var sm3 = sm2.concat(sm1);
+console.log(sm3);
+
+
+var newDate = Date();
+console.log(newDate);
