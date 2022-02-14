@@ -27,3 +27,22 @@ if (friends.indexOf('done') != -1) {
 if (friends.includes('doe')) {
     console.log('doe  exits');
 }
+
+
+// const shorted = friends.sort();
+// const reverse = friends.reverse();
+// const slice = friends.slice(1, 3);
+// const splice = friends.splice(1, 3);
+
+// console.log(reverse);
+
+
+
+
+//number sort fun 
+
+const numbers = [12, 54, 32, 67, 87, 11, 1, 4, 99, 55, 34, 2, 8, 3, 45, 89, 111];
+const sortedNumber = numbers.sort(function (a, b) {
+    return a - b
+})
+console.log(sortedNumber);
