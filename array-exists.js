@@ -48,7 +48,7 @@ const sortedNumber = numbers.sort(function (a, b) {
 // console.log(sortedNumber);
 
 
-// array 
+// array searching
 
 const products = ['A Smarter Way to Learn JavaScript', 'JavaScript: The Definitive Guide', 'Head First JavaScript Programming: A Brain-Friendly Guide', 'Eloquent JavaScript, 3rd Edition', 'The Principles of Object-Oriented JavaScript', 'JavaScript: The Good Parts', 'JavaScript and JQuery: Interactive Front-End Web Development', 'Secrets of the JavaScript Ninja', 'Learn JavaScript VISUALLY with Interactive Exercises', ' Professional JavaScript for Web Developers'];
 // console.log(javaScriptsBookList);
