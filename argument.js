@@ -25,8 +25,6 @@ function addString(str1, str2) {
         string = string + str + ' ';
     }
     return string;
-    const nmaam = num1 + num2;
-    return nmaam;
 
 }
 const summary = addString('mr', 'jhon', 'doe', 'son', 'of', 'mark', 'doe');
